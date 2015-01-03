@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerRemindersOptions">
+        <item>Horas</item>
+        <item>Días</item>
+        <item>Semanas</item>
+        <item>Meses</item>
+        <item>Años</item>
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/title" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description" />
+
+        <TextView
+            android:id="@+id/endTask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/descriptionText"
+            android:layout_below="@id/descriptionText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/endTaskText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/descriptionText"
+            android:layout_below="@id/endTask" />
+
+        <View
+            android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/endTaskText"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/strut"
+            android:layout_below="@id/endTaskText"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/deleteTaskButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/strut"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/endTaskText"
+            android:text="@string/delete_task" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TasksReminder</string>
+    <string name="tasks">Tareas</string>
+    <string name="calendar">Calendario</string>
+    <string name="settings">Preferencias</string>
+    <string name="new_task">New task</string>
+    <string name="title_activity_new_task">Nueva tarea</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="choose_date">Elegir fecha</string>
+    <string name="choose_time">Elegir hora</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reminder">Recordatorios:</string>
+    <string name="reminder_start">A partir del:</string>
+    <string name="reminder_frequency">Cada:</string>
+    <string name="no_title">Tiene que añadir un título!</string>
+    <string name="no_date">Tiene que añadir una fecha!</string>
+    <string name="no_time">Tiene que añadir una hora!</string>
+    <string name="title_activity_date_picker">Escoja fecha</string>
+    <string name="reminder_date_after_end_task">Los recordatorios tienen que ser anteriores a la fecha final de la tarea!</string>
+	<string name="reminder_time_after_end_task">Los recordatorios tienen que ser anteriores a la fecha final de la tarea!</string>
+	<string name="reminder_date_time_before_today">El recordatorio no puede empezar en el pasado!</string>
+	<string name="date_time_before_today">La tarea no puede empezar en el pasado!</string>
+    <string name="toggle_reminder">Activar recordatorios</string>
+    <string name="modify_task">Modificar tarea</string>
+    <string name="fail_save_db">No se pudo escribir en la base de datos!</string>
+    <string name="task_deleted">Tarea suprimida!</string>
+    <string name="delete_task">Suprimir tarea</string>
+    <string name="date">Fecha:</string>
+    <string name="time">a las </string>
+	
+</resources>
